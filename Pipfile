@@ -8,10 +8,14 @@ django = "*"
 gunicorn = "*"
 heroku = "*"
 pytest-django = "*"
+python-decouple = "*"
 
 [dev-packages]
 flake8 = "*"
 pytest-django = "*"
+pytest = "*"
+codecov = "*"
+pytest-cov = "*"
 
 [requires]
 python_version = "3.10"
